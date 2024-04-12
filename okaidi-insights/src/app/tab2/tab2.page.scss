@@ -1,0 +1,47 @@
+.result-card {
+  max-width: 500px;
+  width: 90%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-section {
+  width: 50%; /* Assign half the width to the text section */
+}
+
+.icon-section {
+  width: 50%; /* Assign half the width to the icon section */
+  text-align: right; /* Align the icon to the right */
+}
+
+.large-icon {
+  font-size: 60px; /* Increase the size of the icon */
+  vertical-align: middle;
+}
+
+.positive {
+  color: green;
+  font-weight: bold;
+}
+
+.negative {
+  color: red;
+  font-weight: bold;
+}
+
+.gray-text {
+  color: gray;
+  font-weight: bold;
+}
+
+/* Make sure icons inherit the same color as the text */
+ion-icon {
+  color: inherit; /* This will ensure icons take the same color as the text */
+  vertical-align: middle; /* Keep the icon aligned with the text */
+}

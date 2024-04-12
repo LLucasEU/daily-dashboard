@@ -1,0 +1,7 @@
+{
+  "name": "okaidi-insights",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
